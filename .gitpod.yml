@@ -3,3 +3,7 @@ image:
 
 tasks:
   - command: trunk serve
+
+ports:
+  - port: 8080
+    onOpen: open-preview
